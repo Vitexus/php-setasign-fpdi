@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p debian/php-setasign-fpdi/usr/share/php/setasign/Fpdi
+	cp -r src/* debian/php-setasign-fpdi/usr/share/php/setasign/Fpdi/
+
+override_dh_auto_test:

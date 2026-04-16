@@ -1,0 +1,5 @@
+php-setasign-fpdi (2.6.6-1) unstable; urgency=low
+
+  * Initial Debian packaging
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Wed, 16 Apr 2026 00:00:00 +0200
